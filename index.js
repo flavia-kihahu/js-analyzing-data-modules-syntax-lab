@@ -1,3 +1,5 @@
+require('datejs');
+
 function combineUsers(...args) {
   let combinedObject = {
     users: [],
